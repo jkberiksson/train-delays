@@ -1,0 +1,55 @@
+#map {
+    width: 85%;
+    height: 55vh;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+#menu {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu div {
+    display: flex;
+    align-items: center;
+    background-color: $secondary-background-color;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+}
+
+#menu input[type='radio'] {
+    margin-right: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    background-color: transparent;
+    outline: none;
+}
+
+#menu input[type='radio']:checked {
+    background-color: #4caf50;
+    border-color: #4caf50;
+}
+
+#menu label {
+    font-size: 0.8rem;
+    color: $text-color;
+}
+
+.popup {
+    color: black;
+}
+
+.train-color {
+    color: $link-color;
+}

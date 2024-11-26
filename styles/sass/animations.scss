@@ -1,0 +1,19 @@
+.slide-in {
+    animation: moveFromRight 0.5s ease both;
+}
+
+.slide-out {
+    animation: moveToRight 0.5s ease both;
+}
+
+@keyframes moveFromRight {
+    from {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes moveToRight {
+    to {
+        transform: translateX(100vw);
+    }
+}

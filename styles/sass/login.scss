@@ -1,0 +1,47 @@
+login-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+login-view h1 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
+}
+
+.username,
+.password,
+.form-btn {
+    padding: 1rem;
+    font-size: 14px;
+    outline: none;
+    background-color: $primary-background-color;
+    border: 2px solid $primary-accent-color;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.username,
+.password {
+    color: $text-color;
+}
+
+.form-btn.login-btn {
+    background-color: $primary-accent-color;
+    font-weight: 500;
+}
+
+.login-form p a {
+    display: block;
+    text-align: center;
+    color: $text-color;
+}

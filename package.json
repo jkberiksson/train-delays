@@ -1,0 +1,22 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch ./styles/sass/style.scss:./styles/style.css",
+    "eslint": "eslint '**/*.js'",
+    "eslint:fix": "eslint --fix '**/*.js'",
+    "stylelint": "stylelint '**/*.{css,scss}'",
+    "stylelint:fix": "stylelint --fix '**/*.{css,scss}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "sass": "^1.75.0",
+    "stylelint": "^13.2.1"
+  }
+}

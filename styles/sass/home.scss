@@ -1,0 +1,26 @@
+home-view div {
+    display: flex;
+    flex-direction: column;
+}
+
+home-view .info {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+    color: $secondary-accent-color;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+single-station div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.4rem 1rem;
+}
+
+single-station:nth-child(odd) {
+    background-color: $secondary-background-color;
+}
